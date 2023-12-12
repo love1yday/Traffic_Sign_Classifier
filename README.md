@@ -13,8 +13,8 @@
 ### 使用说明
 
 1. 克隆或分叉此存储库。
-2. 启动Jupyter笔记本：`jupyter笔记本traffic_sign_classifier.ipynb`
-3. 执行您感兴趣的代码单元格。请注意，单元格可能依赖于之前的单元格和/或需要下面链接的数据集。 该笔记本清楚地解释了每个代码单元的作用。
+2. 启动Jupyter笔记本：`jupyter notebook traffic_sign_classifier.ipynb`
+3. 执行代码单元格。
 
 ### 数据集
 
