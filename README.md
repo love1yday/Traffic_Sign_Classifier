@@ -1,31 +1,29 @@
-## Building a Traffic Sign Recognition Classifier
+## 交通标志识别分类器
 
-This is a Convolutional Neural Network built with TensorFlow and trained to recognize traffic signs. The dataset used is the [German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb) dataset.
+这是一个用 TensorFlow 构建的卷积神经网络，经过训练可以识别交通标志。使用的数据集是 [德国交通标志识别基准](http://benchmark.ini.rub.de/?section=gtsrb) 数据集.
 
-### Training and Experimentation Results
+### 训练和实验结果
 
-The final model achieves an accuracy of 97.9% on the official GTSRB test dataset.
+最终模型在官方 GTSRB 测试数据集上的准确率达到 95.23% .
 
-The model includes my own implementation of batch normalization using a running average estimator of the population moments, along with a few tests and visualizations to see what batch normalization does.
+该模型包括我自己使用总体矩的运行平均估计器实现的批量归一化，以及一些测试和可视化，以了解批量归一化的作用。
 
-All code, training results, and relevant explanations and comments are contained in the iPython notebook in this directory.
+所有代码、训练结果以及相关解释和注释都包含在该目录下的 iPython Notebook 中。
 
-### Use Instructions
+### 使用说明
 
-1. Clone or fork this repository.
-2. Launch the Jupyter notebook: `jupyter notebook traffic_sign_classifier.ipynb`
-3. Execute the code cells you are interested in. Note that cells may depend on previous cells and/or require the dataset linked below. The notebook explains clearly what each code cell does.
+1. 克隆或分叉此存储库。
+2. 启动Jupyter笔记本：`jupyter笔记本traffic_sign_classifier.ipynb`
+3. 执行您感兴趣的代码单元格。请注意，单元格可能依赖于之前的单元格和/或需要下面链接的数据集。 该笔记本清楚地解释了每个代码单元的作用。
 
-### Dataset
+### 数据集
 
-The resized and pickled versions of the official GTSRB training and test datasets that were used for this project can be downloaded [here](https://drive.google.com/open?id=0B0WbA4IemlxlUmlJaDBXbzJHMFE).
+用于该项目的官方 GTSRB 训练和测试数据集的调整大小和腌制版本可以在 [此处](https://blog.csdn.net/li_xiaolaji/article/details/108369873) 下载。
 
-### Dependencies
+### 依赖关系
 
 1. Python 3.x
 2. TensorFlow 0.1x
-4. Numpy
-5. OpenCV
-6. Matplotlib
+3. Numpy
+4. Matplotlib
 
-Note: TensorFlow 1.0 introduced major syntax changes and this program does not yet support these changes.
