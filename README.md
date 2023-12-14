@@ -37,7 +37,7 @@ docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/ca
 
 用于该项目的官方 GTSRB 训练和测试数据集可以在 [此处](https://blog.csdn.net/li_xiaolaji/article/details/108369873) 下载，也可以直接下载 `traffic-signs-data.7z` 。
 
-##说明
+## 说明
 
 `images`文件夹里存放的是5张测试图片.
 
