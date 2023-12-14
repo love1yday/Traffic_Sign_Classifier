@@ -14,10 +14,16 @@
 
 ### Docker使用
 1、先在服务器上拉取镜像
-`docker pull udacity/carnd-term1-starter-kit`
+
+```sh
+docker pull udacity/carnd-term1-starter-kit
+```
 
 2、创建容器
+
+```sh
 docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit
+```
 
 3、使用浏览器访问 Jupyter 服务器
 `http://10.120.16.130:8888/`
