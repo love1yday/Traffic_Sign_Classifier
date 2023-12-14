@@ -12,7 +12,7 @@
 
 ## 使用说明
 
-###Docker使用
+### Docker使用
 1、先在服务器上拉取镜像
 docker pull udacity/carnd-term1-starter-kit
 
@@ -23,7 +23,7 @@ docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/ca
 http://10.120.16.130:8888/
 
 
-###直接使用
+### 直接使用
 1. 克隆或分叉此存储库。
 2. 启动Jupyter笔记本：`jupyter notebook traffic_sign_classifier.ipynb`
 3. 执行代码单元格。
