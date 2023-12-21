@@ -33,9 +33,9 @@ docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/ca
 2. 启动Jupyter笔记本：`jupyter notebook traffic_sign_classifier.ipynb`
 3. 执行代码单元格。
 
-### 使用说明(Pytorch)
+## 使用说明(Pytorch)
 
-## Docker使用
+### Docker使用
 
 1、拉取镜像
 
