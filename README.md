@@ -44,7 +44,7 @@ docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/ca
 ## 依赖关系
 
 1. Python 3.x
-2. TensorFlow 0.1x
+2. TensorFlow 1.x
 3. Numpy
 4. Matplotlib
 
