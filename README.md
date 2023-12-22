@@ -84,8 +84,8 @@ jupyter notebook --allow-root --port=8889
 
 ## 依赖关系
 ### TensorFlow版
-1. Python 3.x
-2. TensorFlow 1.x
+1. Python 3.5.4
+2. TensorFlow 1.14.0
 3. Numpy
 4. Matplotlib
 
